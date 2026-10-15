@@ -1,5 +1,6 @@
 .centralizar{
 	text-align: center;
+	color: #6ef6ff;
 }
 
 li{
@@ -15,9 +16,20 @@ img.centralizar{
 	color: white;
 }
 
-.lista1{
+
+a:link {
 	font-size: 35px;
-	color: #31c6f7;
+	color: #00C0D6;
+}
+
+a:visited {
+	font-size: 35px;
+	color: #00C0D6;
+}
+
+a:hover {
+	font-size: 40px;
+	color: #00e5ff;
 }
 
 .subtitulo{
@@ -27,14 +39,15 @@ img.centralizar{
 
 p, .lista2{
 	font-size: 25px;
-	color: #00e5ff;
-	padding-left: 55px;
+	color: #6ef6ff;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 
 .cabecalho{
 	font-size: 20px;
-	background-color: #1f71ff;
+	background-image: radial-gradient(circle, #013d91 85%, black );
 	border-radius: 15px;
 }
 
@@ -46,13 +59,13 @@ body{
 }
 
 .highlight{
-	background-image: radial-gradient(circle, #013d91 65%, black );
+	background-image: radial-gradient(circle, #013d91 85%, black );
 	border-radius: 25px;
 }
 
 .voltar{
 	font-size: 20px;
-	background-color: #1f71ff;
+	background-image: radial-gradient(circle, #013d91 85%, black );
 	border-radius: 15px;
 }
 
